@@ -47,6 +47,8 @@
     --h4-font-size:         24px;
     --h5-font-size:         22px;
     --h6-font-size:         22px;
+
+    
     --p-font-size:          18px;
     --base-font-size:       16px;
     --menu-font-size:       14px;
@@ -285,7 +287,7 @@
 
   .navbar-brand {
     color: var(--black-color);
-    font-size: var(--h4-font-size);
+    font-size: var(--h6-font-size);
     font-weight: var(--font-weight-bold);
     line-height: normal;
     padding-top: 0;
@@ -294,8 +296,8 @@
   .nav-item .nav-link {
     display: block;
     color: var(--dark-color);
-    font-size: var(--h8-font-size);
-    font-weight: var(--font-weight-normal);
+    font-size: var(--menu-font-size);
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
     padding: 2px 6px;
   }
@@ -379,7 +381,7 @@
   -----------------------------------------*/
 
   .hero {
-    background-image: url('../images/logonew1.jpg');
+    background-image: url('../images/logonew.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
