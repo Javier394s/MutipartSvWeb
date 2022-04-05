@@ -201,8 +201,29 @@
     outline: none;
     text-decoration: none;
   }
-
-
+  .stroke {
+    text-align:center;
+    color: #fff;
+    font-family: 'Plain';
+    src: url('../fonts/Plain-Light.woff2') format('woff2'),
+        url('../fonts/Plain-Light.woff') format('woff');
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
+    }
+    .stroke2 {
+      text-align:center;
+      color: #fff;
+      font-size: 50px;
+      font-family: 'Plain';
+      src: url('../fonts/Plain-Light.woff2') format('woff2'),
+          url('../fonts/Plain-Light.woff') format('woff');
+      font-weight: 300;
+      font-style: normal;
+      letter-spacing: 0;
+      text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
+      }
   /* BG OVERLAY */
 
   .bg-overlay {
@@ -358,7 +379,7 @@
   -----------------------------------------*/
 
   .hero {
-    background-image: url('../images/logonew.jpg');
+    background-image: url('../images/logonew1.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
