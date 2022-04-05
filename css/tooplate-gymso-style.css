@@ -30,6 +30,7 @@
     --banda-color:          #053479;
     --about-bg-color:       #f9f9f9;
 
+    --graywhite-color:      #f9f9f9dc;
     --gray-color:           #909090;
     --link-color:           #404040;
     --p-color:              #666262;
@@ -62,7 +63,7 @@
 
 
   /*---------------------------------------
-     TYPOGRAPHY              
+    TYPOGRAPHY              
   -----------------------------------------*/
 
   h1,h2,h3,h4,h5,h6 {
@@ -100,7 +101,7 @@
   }
 
   h6 {
-    color: var(--gray-color);
+    color: var(--graywhite-color);
     font-size: var(--h6-font-size);
     line-height: inherit;
     margin: 0;
@@ -262,8 +263,8 @@
   }
 
   .navbar-brand {
-    color: var(--white-color);
-    font-size: var(--h3-font-size);
+    color: var(--black-color);
+    font-size: var(--h4-font-size);
     font-weight: var(--font-weight-bold);
     line-height: normal;
     padding-top: 0;
@@ -272,7 +273,7 @@
   .nav-item .nav-link {
     display: block;
     color: var(--dark-color);
-    font-size: var(--menu-font-size);
+    font-size: var(--h8-font-size);
     font-weight: var(--font-weight-normal);
     text-transform: uppercase;
     padding: 2px 6px;
@@ -284,7 +285,7 @@
   }
 
   .navbar .social-icon li a {
-    color: var(--white-color);
+    color: var(--banda-color);
   }
 
   .navbar-toggler {
@@ -362,7 +363,7 @@
     background-position: top;
     background-repeat: no-repeat;
     vertical-align: middle;
-    min-height: 150vh;
+    min-height: 100vh;
     position: relative;
   }
 
